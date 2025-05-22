@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "edumapper",
   "private": true,
   "type": "module",
   "scripts": {
@@ -18,5 +18,8 @@
     "tailwindcss": "^4.1.7",
     "vue": "^3.5.14",
     "vue-router": "^4.5.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
