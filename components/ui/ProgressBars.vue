@@ -33,7 +33,7 @@ const progressBars = computed(() => {
       />
 
       <div
-        v-if="value > 0"
+        v-if="item === 100"
         class="absolute inset-0 h-full w-full rounded-full transition-all duration-300"
         :class="color"
       />
